@@ -10,10 +10,11 @@
   <name>Genie logiciel - INFO2</name>
 
   <properties>
-  	<maven.compiler.source>15</maven.compiler.source>
-  	<maven.compiler.target>15</maven.compiler.target>
+  	<maven.compiler.source>7</maven.compiler.source>
+  	<maven.compiler.target>7</maven.compiler.target>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
   <build>
     <plugins>
       <plugin>
@@ -21,9 +22,10 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.6.0</version>
         <configuration>
-        <mainClass>Main</mainClass>
+        	<mainClass>demo.Main</mainClass>
         </configuration>
       </plugin>
     </plugins>
   </build>
+
 </project>

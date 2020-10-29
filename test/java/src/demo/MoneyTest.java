@@ -14,8 +14,5 @@ public class MoneyTest {
 		Money expected = new Money(30,"EUR");
 		
 		assertEquals(expected,m1.add(m2));
-	}
-	
-	
-	
+	}	
 }
